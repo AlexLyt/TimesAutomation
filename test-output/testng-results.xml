@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="827246" started-at="2017-06-01T15:42:52Z" finished-at="2017-06-01T15:56:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="827246" started-at="2017-06-01T15:42:52Z" finished-at="2017-06-01T15:56:39Z">
+      <class name="Test.AdBrige">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:Test.AdBrige@9629756]" name="set_up" is-config="true" duration-ms="5474" started-at="2017-06-01T11:42:52Z" finished-at="2017-06-01T11:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="URL4()[pri:0, instance:Test.AdBrige@9629756]" name="URL4" duration-ms="819769" started-at="2017-06-01T11:42:58Z" finished-at="2017-06-01T11:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL4 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test.AdBrige@9629756]" name="teardown" is-config="true" duration-ms="1992" started-at="2017-06-01T11:56:37Z" finished-at="2017-06-01T11:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.AdBrige -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
