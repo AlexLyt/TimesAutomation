@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21014" started-at="2017-01-19T20:28:24Z" finished-at="2017-01-19T20:28:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21014" started-at="2017-01-19T20:28:24Z" finished-at="2017-01-19T20:28:45Z">
+      <class name="com.facebook.tests.Login_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.tests.Login_Test@8bd1b6a]" name="setup" is-config="true" duration-ms="7349" started-at="2017-01-19T15:28:24Z" finished-at="2017-01-19T15:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="filloutEmailFild()[pri:0, instance:com.facebook.tests.Login_Test@8bd1b6a]" name="filloutEmailFild" duration-ms="5475" started-at="2017-01-19T15:28:32Z" finished-at="2017-01-19T15:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filloutEmailFild -->
+        <test-method status="FAIL" signature="loadPage(java.lang.String, java.lang.String)[pri:0, instance:com.facebook.tests.Login_Test@8bd1b6a]" name="loadPage" duration-ms="2699" started-at="2017-01-19T15:28:37Z" data-provider="pages" finished-at="2017-01-19T15:28:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Facebook - Log In or Sign Up]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<Facebook[]> but was:<Facebook[ - Log In or Sign Up]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<Facebook[]> but was:<Facebook[ - Log In or Sign Up]>
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at com.facebook.tests.Login_Test.loadPage(Login_Test.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method status="PASS" signature="loadPage(java.lang.String, java.lang.String)[pri:0, instance:com.facebook.tests.Login_Test@8bd1b6a]" name="loadPage" duration-ms="2534" started-at="2017-01-19T15:28:40Z" data-provider="pages" finished-at="2017-01-19T15:28:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method status="PASS" signature="loadPage(java.lang.String, java.lang.String)[pri:0, instance:com.facebook.tests.Login_Test@8bd1b6a]" name="loadPage" duration-ms="2920" started-at="2017-01-19T15:28:42Z" data-provider="pages" finished-at="2017-01-19T15:28:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yahoo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.facebook.tests.Login_Test@8bd1b6a]" name="teardown" is-config="true" duration-ms="0" started-at="2017-01-19T15:28:45Z" finished-at="2017-01-19T15:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.facebook.tests.Login_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
