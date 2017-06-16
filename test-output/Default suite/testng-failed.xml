@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Test.Filter_Results">
+      <class name="Test.NewTest">
         <methods>
-          <include name="Filter_Politifact_About"/>
-          <include name="setup"/>
           <include name="teardown"/>
+          <include name="setup"/>
+          <include name="Loop_Test"/>
         </methods>
-      </class> <!-- Test.Filter_Results -->
+      </class> <!-- Test.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
