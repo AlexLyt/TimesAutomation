@@ -42,7 +42,7 @@ public class NewTest {
 		// wd.manage().window().maximize();
 	}
 
-	@Test(enabled = true)
+	@Test(enabled = false)
 	// NDN videos have been replaced with Fun Facts
 	public void Fun_Facts_Mugshots_FF() throws InterruptedException {
 
